@@ -92,12 +92,14 @@ BOARD_ROOT_EXTRA_FOLDERS := omr efs bluetooth dsp firmware persist sec_efs modem
 AB_OTA_UPDATER := false
 
 # Dynamic Partition
+BOARD_SUPER_PARTITION_SIZE := 4446945824
 BOARD_SUPER_PARTITION_GROUPS := google_dynamic_partitions
 BOARD_GOOGLE_DYNAMIC_PARTITIONS_PARTITION_LIST := \
     system \
     vendor \
     product \
     odm
+BOARD_GOOGLE_DYNAMIC_PARTITIONS_SIZE := 3886143816
 
 # Ramdisk compression
 LZMA_RAMDISK_TARGETS := recovery
