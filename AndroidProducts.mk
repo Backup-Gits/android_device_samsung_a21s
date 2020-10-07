@@ -17,3 +17,7 @@
 
 PRODUCT_MAKEFILES := \
      $(LOCAL_DIR)/omni_a21s.mk
+
+COMMON_LUNCH_CHOICES := \
+     omni_a21s-eng \
+     omni_a21s-userdebug
