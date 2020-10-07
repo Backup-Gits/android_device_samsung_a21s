@@ -1,0 +1,9 @@
+cc_library_static {
+    name: "libinit_a21s",
+    recovery_available: true,
+    srcs: ["init_a21s.cpp"],
+    include_dirs: [
+        "system/core/base/include",
+        "system/core/init"
+    ]
+}
